@@ -3,9 +3,9 @@ package kadai2;
 public class Wizard extends Character {
 
 
-    public void run() {
+    /*public void run() {
         System.out.println(this.name + "は逃げ出した！");
-    }
+    }*/
 
 
     public void attack(Matango m) {
