@@ -4,11 +4,9 @@ public class Fool extends Character implements Human {
     //Caracterからhpやnameなどのフィールドを継承している
     //Caracterから継承した抽象メソッドattack()を実装している
 
-    int hp;
-
     public Fool(String name, int hp) {
-        this.name = name;
-        this.hp = hp;
+        super.name = name;
+        super.hp = hp;
     }
 
     public void attack(Matango m) {
